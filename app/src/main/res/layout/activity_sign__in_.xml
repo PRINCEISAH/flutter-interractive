@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SIGN_IN_Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <TextView
+        android:layout_marginTop="151dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="Sign In"
+        android:textSize="32sp"
+
+        android:textColor="#071D36"/>
+    <TextView
+        android:fontFamily="@font/helvetica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endless Partying possibilities awaits you."
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#767676"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kindly fill in your email and password."
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/helvetica"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#767676"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/helvetica"
+        android:textColor="#575757"
+        android:textSize="12sp"/>
+    <EditText
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_width="303dp"
+        android:inputType="text"
+        android:fontFamily="@font/helvetica"
+        android:text="flutterinteractive@google.com"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="7dp"
+       android:fontFamily="@font/helvetica"
+        android:textColor="#575757"
+        android:textSize="12sp"/>
+    <EditText
+        android:fontFamily="Helvetica Neue"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_width="303dp"
+        android:inputType="textPassword"
+        android:text="**************"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="30dp"
+     android:background="@drawable/botton"
+        android:text="@string/SignIn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/helvetica"
+            android:text="Reset Password?"
+            android:textColor="#575757"
+            android:textSize="14sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginStart="138dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/helvetica"
+
+        android:textColor="#575757"
+        android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

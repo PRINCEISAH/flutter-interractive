@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">flutter interractive</string>
+    <string name="whats_new">What"s New?</string>
+    <string name="version">V 1.32.1</string>
+    <string name="connect">Connect to Multiple Speakers</string>
+    <string name="connecttext"> You can now connect to multie bluetooth speakers at a time.</string>
+    <string name="Broadcast">Broadcast Party Venue</string>
+    <string name="broadcastext">Notify friends nearby of an on going party.</string>
+    <string name="flutter">Flutter Interactive</string>
+    <string name="fluttertext">Run a codelab from your mobile phone and share with the world.</string>
+    <string name="SignIn">Sign In</string>
+</resources>

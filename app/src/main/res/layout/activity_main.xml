@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/rect"
+        android:layout_width="72dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginRight="267dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical">
+
+        <TextView
+           android:layout_marginLeft="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/version"
+            android:fontFamily="@font/helvetica"
+            android:textStyle="bold"
+            android:textColor="#2C8AF8"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:layout_marginTop="10dp"
+
+        >
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:text="What’s New?"
+            android:lineSpacingExtra="44dp"
+            android:textSize="36sp"
+            android:fontFamily="@font/helvetica"
+            android:textColor="#2C8AF8"/>
+
+
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="50dp"
+
+        android:src="@drawable/ic_bluetooth_searching_48px"/>
+
+        <TextView
+            android:id="@+id/connect"
+            android:layout_width="228dp"
+            android:layout_height="19dp"
+            android:textSize="15sp"
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="77dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/helvetica"
+            android:lineSpacingExtra="17dp"
+            android:textColor="#071D36"
+            android:text="Connect To Multiple Speakers" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    <TextView
+
+        android:layout_width="178dp"
+        android:layout_height="31dp"
+        android:text="@string/connecttext"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="12dp"
+        android:gravity="left"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="36dp"
+           android:src="@drawable/ic_multiple_11_"/>
+
+        <TextView
+            android:id="@+id/board"
+            android:layout_width="174dp"
+            android:layout_height="19dp"
+            android:fontFamily="@font/helvetica"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="131dp"
+            android:textColor="#071D36"
+            android:textStyle="bold"
+            android:text="Broadcast Party Venue" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/broadcastext"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:textSize="12sp"/>
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="36dp"
+            android:src="@mipmap/ic_launcher_foreground"/>
+
+        <TextView
+            android:id="@+id/flutter"
+            android:fontFamily="@font/helvetica"
+            android:textColor="#071D36"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="@string/flutter" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="236dp"
+        android:layout_height="31dp"
+        android:text="@string/fluttertext"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="69dp"
+        android:fontFamily=""
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="80dp"
+        android:background="#2C8AF8"
+        android:fontFamily="@font/helvetica"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:text="Sign In"
+        android:textColor="#FFFFFF" />
+
+    <Button
+
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="36dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+
+        android:text="Sign Up"
+
+        android:textColor="#2C8AF8" />
+
+
+
+
+
+</LinearLayout>
