@@ -1,12 +1,21 @@
 <resources>
     <string name="app_name">flutter interractive</string>
-    <string name="whats_new">What"s New?</string>
+    <string name="Whats_new_text">What’s New?</string>
     <string name="version">V 1.32.1</string>
-    <string name="connect">Connect to Multiple Speakers</string>
-    <string name="connecttext"> You can now connect to multie bluetooth speakers at a time.</string>
-    <string name="Broadcast">Broadcast Party Venue</string>
-    <string name="broadcastext">Notify friends nearby of an on going party.</string>
+    <string name="connect_to_speakers">Connect To Multiple Speakers</string>
+    <string name="connect_to_speakers_text">You can now connect to multiple bluetooth speakers at a time.</string>
+    <string name="broad_cast">Broadcast Party Venue</string>
+    <string name="broad_cast_text">Notify friends nearby of an on going party.</string>
     <string name="flutter">Flutter Interactive</string>
     <string name="fluttertext">Run a codelab from your mobile phone and share with the world.</string>
+
     <string name="SignIn">Sign In</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="endless_party">Endless Partying possibilities awaits you.</string>
+    <string name="Details">Kindly fill in your email and password.</string>
+    <string name="EMAIL">Email</string>
+    <string name="Email_username_text">flutterinteractive@google.com</string>
+    <string name="password">Password</string>
+    <string name="password_text">**************</string>
+    <string name="Reset_password">Reset Password?</string>
 </resources>
